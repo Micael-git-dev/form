@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<header>
+	</header>
+	<body>
+	<h2>CADASTRO DE USER</h2>
+	<form>
+		<label for="fname">Primeiro nome:</label><br>
+		<input type="text" id="fname" name="fname" value="Exemplo: Fulano"></input><br>
+		<br>	
+		<label for="lname">Sobrenome:</label><br>
+		<input type="text" id="lname" name="lname" value="Exemplo: de Tal"></input><br>
+		<br>	
+		<label for="dia">DATA DE NASCIMENTO:</label><br>
+		<input type="date" id="dia" name="dia" value=""></input><br>
+		<br>
+		<label for="file">SELECIONE UM ARQUIVO:</label><br>
+		<input type="file" id="file" name="file" multiple></input><br>
+		<br>	
+		<label for="cpf">CPF:</label><br>
+		<input type="text" id="cpfname" name="cpfname" value="999.999.999-99"></input>
+		<br>		
+		<h4>Qual linguagem você gosta:</h4>		
+			<label for="html">HTML</label><br>
+			<input type="radio" id="html" name="language" value="HTML"></input><br>
+			<br>		
+			<label for="java">JAVA</label><br>
+			<input type="radio" id="java" name="language" value="JAVA"></input><br>
+			<br>	
+			<label for="css">CSS</label><br>
+			<input type="radio" id="css" name="language" value="css"></input>
+			<br>		
+		<h4>Qual transporte você gosta:</h4>
+			<label for="bike">BICICLETA</label><br>
+			<input type="checkbox" id="bike" name="bike" value="bicicleta"></input><br>
+			<br>	
+			<label for="car">CARRO</label><br>
+			<input type="checkbox" id="car" name="car" value="carro"></input><br>
+			<br>
+			<label for="barco">BARCO</label><br>
+			<input type="checkbox" id="barco" name="barco" value="barco"></input>
+			<br>	
+		<h4>Escreva suas informações:</h4>
+			<input list="browsers" name="browser"></input>
+				<datalist id="browsers">
+					<option value="Firefox">
+					<option value="Chrome">
+					<option value="Edged">
+				</datalist><br>
+				<br>
+		<label for="cars">Mudar Carro</label>
+			<select id="cars" name="cars">
+				<option value="uno">UNO</option>
+				<option value="celta">CELTA</option>
+			</select><br>
+			<br>
+		<textarea name="massage" rows="10" cols="30">O gato mia...</textarea>
+	</form>
+	</body>
+</html>
